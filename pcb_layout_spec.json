@@ -1,0 +1,1094 @@
+{
+  "kicad_project": {
+    "project_directory": "C:\\Users\\sanja\\Downloads\\Antenna_Project\\AME_Project",
+    "pcb_file": "C:\\Users\\sanja\\Downloads\\Antenna_Project\\AME_Project\\AME_Project.kicad_pcb",
+    "kicad_cli_path": "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+    "kicad_python_path": "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+    "pcbnew_version": "10.0.5"
+  },
+  "board_outline": {
+    "layer": "Edge.Cuts",
+    "shape": "polygon",
+    "vertices": [
+      [
+        -10.0,
+        -10.0
+      ],
+      [
+        10.0,
+        -10.0
+      ],
+      [
+        10.0,
+        10.0
+      ],
+      [
+        -10.0,
+        10.0
+      ]
+    ],
+    "units": "mm"
+  },
+  "stackup": {
+    "layers": 2,
+    "substrate_thickness_mm": 2.0,
+    "copper_thickness_um": 35.0,
+    "substrate_material": "FR4",
+    "dielectric_constant": 4.4
+  },
+  "vias": [
+    {
+      "name": "Via_B_1",
+      "center": [
+        -4.8,
+        -8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_B_2",
+      "center": [
+        -1.6,
+        -8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_B_3",
+      "center": [
+        1.6,
+        -8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_B_4",
+      "center": [
+        4.8,
+        -8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_L_0",
+      "center": [
+        -8.0,
+        -8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_L_1",
+      "center": [
+        -8.0,
+        -4.8
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_L_2",
+      "center": [
+        -8.0,
+        -1.6
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_L_3",
+      "center": [
+        -8.0,
+        1.6
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_L_4",
+      "center": [
+        -8.0,
+        4.8
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_L_5",
+      "center": [
+        -8.0,
+        8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_R_0",
+      "center": [
+        8.0,
+        -8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_R_1",
+      "center": [
+        8.0,
+        -4.8
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_R_2",
+      "center": [
+        8.0,
+        -1.6
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_R_3",
+      "center": [
+        8.0,
+        1.6
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_R_4",
+      "center": [
+        8.0,
+        4.8
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_R_5",
+      "center": [
+        8.0,
+        8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_T_1",
+      "center": [
+        -4.8,
+        8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_T_2",
+      "center": [
+        -1.6,
+        8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_T_3",
+      "center": [
+        1.6,
+        8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    },
+    {
+      "name": "Via_T_4",
+      "center": [
+        4.8,
+        8.0
+      ],
+      "drill_diameter_mm": 1.0,
+      "pad_diameter_mm": 1.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "net": "GND"
+    }
+  ],
+  "bottom_copper": {
+    "layer": "B.Cu",
+    "type": "solid_fill",
+    "net": "GND",
+    "boundary": [
+      [
+        -10.0,
+        -10.0
+      ],
+      [
+        10.0,
+        -10.0
+      ],
+      [
+        10.0,
+        10.0
+      ],
+      [
+        -10.0,
+        10.0
+      ]
+    ]
+  },
+  "top_copper": {
+    "layer": "F.Cu",
+    "type": "zone_with_cutouts",
+    "net": "GND",
+    "outer_boundary": [
+      [
+        -10.0,
+        -10.0
+      ],
+      [
+        10.0,
+        -10.0
+      ],
+      [
+        10.0,
+        10.0
+      ],
+      [
+        -10.0,
+        10.0
+      ]
+    ],
+    "cutouts": [
+      {
+        "name": "CSRR_Outer_Split_Ring",
+        "type": "polygon",
+        "vertex_count": 71,
+        "points": [
+          [
+            0.333333,
+            -3.0
+          ],
+          [
+            0.333333,
+            -2.333333
+          ],
+          [
+            5.291503,
+            -2.333333
+          ],
+          [
+            5.209777,
+            -1.858658
+          ],
+          [
+            5.085561,
+            -1.393292
+          ],
+          [
+            4.919866,
+            -0.94103
+          ],
+          [
+            4.714045,
+            -0.505562
+          ],
+          [
+            4.469775,
+            -0.090438
+          ],
+          [
+            4.18905,
+            0.300955
+          ],
+          [
+            3.874158,
+            0.665425
+          ],
+          [
+            3.527668,
+            1.0
+          ],
+          [
+            3.152406,
+            1.30195
+          ],
+          [
+            2.751433,
+            1.568813
+          ],
+          [
+            2.328019,
+            1.798413
+          ],
+          [
+            1.885618,
+            1.988876
+          ],
+          [
+            1.427837,
+            2.13865
+          ],
+          [
+            0.958411,
+            2.246512
+          ],
+          [
+            0.481168,
+            2.311583
+          ],
+          [
+            0.0,
+            2.333333
+          ],
+          [
+            -0.481168,
+            2.311583
+          ],
+          [
+            -0.958411,
+            2.246512
+          ],
+          [
+            -1.427837,
+            2.13865
+          ],
+          [
+            -1.885618,
+            1.988876
+          ],
+          [
+            -2.328019,
+            1.798413
+          ],
+          [
+            -2.751433,
+            1.568813
+          ],
+          [
+            -3.152406,
+            1.30195
+          ],
+          [
+            -3.527668,
+            1.0
+          ],
+          [
+            -3.874158,
+            0.665425
+          ],
+          [
+            -4.18905,
+            0.300955
+          ],
+          [
+            -4.469775,
+            -0.090438
+          ],
+          [
+            -4.714045,
+            -0.505562
+          ],
+          [
+            -4.919866,
+            -0.94103
+          ],
+          [
+            -5.085561,
+            -1.393292
+          ],
+          [
+            -5.209777,
+            -1.858658
+          ],
+          [
+            -5.291502,
+            -2.333333
+          ],
+          [
+            -0.333333,
+            -2.333333
+          ],
+          [
+            -0.333333,
+            -3.0
+          ],
+          [
+            -6.0,
+            -3.0
+          ],
+          [
+            -5.971108,
+            -2.411897
+          ],
+          [
+            -5.884712,
+            -1.829458
+          ],
+          [
+            -5.741642,
+            -1.258292
+          ],
+          [
+            -5.543277,
+            -0.703899
+          ],
+          [
+            -5.291528,
+            -0.17162
+          ],
+          [
+            -4.988818,
+            0.333421
+          ],
+          [
+            -4.638063,
+            0.80636
+          ],
+          [
+            -4.242641,
+            1.242641
+          ],
+          [
+            -3.80636,
+            1.638063
+          ],
+          [
+            -3.333421,
+            1.988818
+          ],
+          [
+            -2.82838,
+            2.291528
+          ],
+          [
+            -2.296101,
+            2.543277
+          ],
+          [
+            -1.741708,
+            2.741642
+          ],
+          [
+            -1.170542,
+            2.884712
+          ],
+          [
+            -0.588103,
+            2.971108
+          ],
+          [
+            0.0,
+            3.0
+          ],
+          [
+            0.588103,
+            2.971108
+          ],
+          [
+            1.170542,
+            2.884712
+          ],
+          [
+            1.741708,
+            2.741642
+          ],
+          [
+            2.296101,
+            2.543277
+          ],
+          [
+            2.82838,
+            2.291528
+          ],
+          [
+            3.333421,
+            1.988818
+          ],
+          [
+            3.80636,
+            1.638063
+          ],
+          [
+            4.242641,
+            1.242641
+          ],
+          [
+            4.638063,
+            0.80636
+          ],
+          [
+            4.988818,
+            0.333421
+          ],
+          [
+            5.291528,
+            -0.17162
+          ],
+          [
+            5.543277,
+            -0.703899
+          ],
+          [
+            5.741642,
+            -1.258292
+          ],
+          [
+            5.884712,
+            -1.829458
+          ],
+          [
+            5.971108,
+            -2.411897
+          ],
+          [
+            6.0,
+            -3.0
+          ],
+          [
+            0.333333,
+            -3.0
+          ]
+        ]
+      },
+      {
+        "name": "CSRR_Inner_Split_Ring",
+        "type": "polygon",
+        "vertex_count": 70,
+        "points": [
+          [
+            0.333333,
+            1.788412
+          ],
+          [
+            0.333333,
+            1.119871
+          ],
+          [
+            0.333333,
+            1.11987
+          ],
+          [
+            1.1106,
+            0.981333
+          ],
+          [
+            1.847346,
+            0.697533
+          ],
+          [
+            2.516691,
+            0.278827
+          ],
+          [
+            3.094212,
+            -0.259509
+          ],
+          [
+            3.558839,
+            -0.897834
+          ],
+          [
+            3.89362,
+            -1.612857
+          ],
+          [
+            4.086339,
+            -2.378492
+          ],
+          [
+            4.129966,
+            -3.166802
+          ],
+          [
+            4.022908,
+            -3.949027
+          ],
+          [
+            3.769072,
+            -4.696626
+          ],
+          [
+            3.377719,
+            -5.382322
+          ],
+          [
+            2.863127,
+            -5.981098
+          ],
+          [
+            2.244072,
+            -6.471107
+          ],
+          [
+            1.543141,
+            -6.83447
+          ],
+          [
+            0.785908,
+            -7.057929
+          ],
+          [
+            0.0,
+            -7.133333
+          ],
+          [
+            -0.785908,
+            -7.057929
+          ],
+          [
+            -1.543141,
+            -6.83447
+          ],
+          [
+            -2.244072,
+            -6.471107
+          ],
+          [
+            -2.863127,
+            -5.981098
+          ],
+          [
+            -3.377719,
+            -5.382322
+          ],
+          [
+            -3.769072,
+            -4.696626
+          ],
+          [
+            -4.022908,
+            -3.949027
+          ],
+          [
+            -4.129966,
+            -3.166802
+          ],
+          [
+            -4.086339,
+            -2.378492
+          ],
+          [
+            -3.89362,
+            -1.612857
+          ],
+          [
+            -3.558839,
+            -0.897834
+          ],
+          [
+            -3.094212,
+            -0.259509
+          ],
+          [
+            -2.516691,
+            0.278827
+          ],
+          [
+            -1.847346,
+            0.697533
+          ],
+          [
+            -1.1106,
+            0.981333
+          ],
+          [
+            -0.333333,
+            1.11987
+          ],
+          [
+            -0.333333,
+            1.788412
+          ],
+          [
+            -0.333333,
+            1.788412
+          ],
+          [
+            -1.240971,
+            1.636808
+          ],
+          [
+            -2.103,
+            1.314787
+          ],
+          [
+            -2.887738,
+            0.834185
+          ],
+          [
+            -3.566341,
+            0.212664
+          ],
+          [
+            -4.113871,
+            -0.526932
+          ],
+          [
+            -4.510203,
+            -1.357421
+          ],
+          [
+            -4.740772,
+            -2.24828
+          ],
+          [
+            -4.797102,
+            -3.166767
+          ],
+          [
+            -4.677124,
+            -4.079125
+          ],
+          [
+            -4.385247,
+            -4.951821
+          ],
+          [
+            -3.932199,
+            -5.752782
+          ],
+          [
+            -3.33463,
+            -6.45257
+          ],
+          [
+            -2.614504,
+            -7.025465
+          ],
+          [
+            -1.798286,
+            -7.450412
+          ],
+          [
+            -0.915975,
+            -7.711793
+          ],
+          [
+            -0.0,
+            -7.8
+          ],
+          [
+            0.915975,
+            -7.711793
+          ],
+          [
+            1.798286,
+            -7.450412
+          ],
+          [
+            2.614504,
+            -7.025465
+          ],
+          [
+            3.33463,
+            -6.45257
+          ],
+          [
+            3.932199,
+            -5.752782
+          ],
+          [
+            4.385247,
+            -4.951821
+          ],
+          [
+            4.677124,
+            -4.079125
+          ],
+          [
+            4.797102,
+            -3.166767
+          ],
+          [
+            4.740772,
+            -2.24828
+          ],
+          [
+            4.510203,
+            -1.357421
+          ],
+          [
+            4.113871,
+            -0.526932
+          ],
+          [
+            3.566341,
+            0.212664
+          ],
+          [
+            2.887738,
+            0.834185
+          ],
+          [
+            2.103,
+            1.314787
+          ],
+          [
+            1.240971,
+            1.636808
+          ],
+          [
+            0.333333,
+            1.788412
+          ],
+          [
+            0.333333,
+            1.788412
+          ]
+        ]
+      }
+    ]
+  },
+  "hfss_variables": {
+    "substrate_length": {
+      "expression": "20mm",
+      "numeric_value": 20.0,
+      "units": ""
+    },
+    "substrate_height": {
+      "expression": "2mm",
+      "numeric_value": 2.0,
+      "units": ""
+    },
+    "via_diameter": {
+      "expression": "1mm",
+      "numeric_value": 1.0,
+      "units": ""
+    },
+    "eps_r": {
+      "expression": "9.8",
+      "numeric_value": 9.8,
+      "units": ""
+    },
+    "air_height": {
+      "expression": "10mm",
+      "numeric_value": 10.0,
+      "units": ""
+    },
+    "thick": {
+      "expression": "0.01mm",
+      "numeric_value": 0.01,
+      "units": ""
+    },
+    "$T": {
+      "expression": "25cel",
+      "numeric_value": 25.0,
+      "units": ""
+    },
+    "$Te": {
+      "expression": "25cel",
+      "numeric_value": 25.0,
+      "units": ""
+    },
+    "$Tg": {
+      "expression": "130cel",
+      "numeric_value": 130.0,
+      "units": ""
+    },
+    "$eps_ref": {
+      "expression": "4.4",
+      "numeric_value": 4.4,
+      "units": ""
+    },
+    "$TC1": {
+      "expression": "200cel",
+      "numeric_value": 200.0,
+      "units": ""
+    },
+    "$Tref": {
+      "expression": "22cel",
+      "numeric_value": 22.0,
+      "units": ""
+    },
+    "$TC2": {
+      "expression": "-150cel",
+      "numeric_value": -150.0,
+      "units": ""
+    },
+    "substrate_width": {
+      "expression": "substrate_length",
+      "numeric_value": 20.0,
+      "units": ""
+    },
+    "scale_factor": {
+      "expression": "substrate_length / 15.0mm",
+      "numeric_value": 1.33333333333333,
+      "units": ""
+    },
+    "R1": {
+      "expression": "4.5mm * scale_factor",
+      "numeric_value": 6.0,
+      "units": ""
+    },
+    "R2": {
+      "expression": "3.6mm * scale_factor",
+      "numeric_value": 4.8,
+      "units": ""
+    },
+    "gap_s": {
+      "expression": "0.5mm * scale_factor",
+      "numeric_value": 0.666666666666667,
+      "units": ""
+    },
+    "open_g": {
+      "expression": "0.5mm * scale_factor",
+      "numeric_value": 0.666666666666667,
+      "units": ""
+    },
+    "y_offset": {
+      "expression": "-2.25mm * scale_factor",
+      "numeric_value": -3.0,
+      "units": ""
+    },
+    "via_spacing": {
+      "expression": "2.0mm * scale_factor",
+      "numeric_value": 2.66666666666667,
+      "units": ""
+    },
+    "edge_margin": {
+      "expression": "1.5mm * scale_factor",
+      "numeric_value": 2.0,
+      "units": ""
+    },
+    "total_z": {
+      "expression": "substrate_height + 2 * air_height",
+      "numeric_value": 22.0,
+      "units": ""
+    },
+    "z_metal": {
+      "expression": "substrate_height - thick / 2",
+      "numeric_value": 1.995,
+      "units": ""
+    },
+    "via_edge_x": {
+      "expression": "substrate_width / 2.0 - edge_margin",
+      "numeric_value": 8.0,
+      "units": ""
+    },
+    "via_edge_y": {
+      "expression": "substrate_length / 2.0 - edge_margin",
+      "numeric_value": 8.0,
+      "units": ""
+    },
+    "metal_track": {
+      "expression": "(R1 - gap_s) - R2",
+      "numeric_value": 0.533333333333333,
+      "units": ""
+    },
+    "y_inner_base": {
+      "expression": "y_offset + gap_s + metal_track",
+      "numeric_value": -1.8,
+      "units": ""
+    },
+    "$eps_r": {
+      "expression": "if($Te <= $Tg, $eps_ref * (1 + $TC1 * 1e-6 * ($Te - $Tref)/1cel), ($eps_ref * (1 + $TC1 * 1e-6 * ($Tg - $Tref)/1cel)) * (1 + $TC2 * 1e-6 * ($Te - $Tg)/1cel))",
+      "numeric_value": 4.40264,
+      "units": ""
+    }
+  }
+}

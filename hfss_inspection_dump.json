@@ -1,0 +1,1309 @@
+{
+  "project_path": "C:\\Users\\sanja\\Downloads\\Antenna_Project\\SIW_CSRR_TEM_Waveguide.aedt",
+  "kicad_api_status": "pcbnew could not be imported (No module named 'pcbnew'). KiCad Python API is isolated to its standalone installation.",
+  "metadata": {
+    "project_name": "SIW_CSRR_TEM_Waveguide",
+    "design_name": "SIW_CSRR_Sensor",
+    "solution_type": "Modal",
+    "model_units": "mm",
+    "bounding_box": [
+      -10.0,
+      -10.0,
+      -10.0,
+      10.0,
+      10.0,
+      12.0
+    ]
+  },
+  "coordinate_systems": [],
+  "geometry_inventory": [
+    {
+      "id": 6,
+      "name": "FR4_epoxy",
+      "material": "fr4_epoxy",
+      "solve_inside": true,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -10.0,
+        -10.0,
+        0.0,
+        10.0,
+        10.0,
+        2.0
+      ],
+      "bounding_dimensions": [
+        20.0,
+        20.0,
+        2.0
+      ],
+      "volume": 800.0,
+      "history_operations": "CreateBox",
+      "specific_attributes": {}
+    },
+    {
+      "id": 34,
+      "name": "Via_L_0",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -8.5,
+        -8.5,
+        0.0,
+        -7.5,
+        -7.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -8.0,
+            -8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "Via_R_0",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        7.5,
+        -8.5,
+        0.0,
+        8.5,
+        -7.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948966,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            8.0,
+            -8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "Via_L_1",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -8.5,
+        -5.3,
+        0.0,
+        -7.5,
+        -4.3,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -8.0,
+            -4.8,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Via_R_1",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        7.5,
+        -5.3,
+        0.0,
+        8.5,
+        -4.3,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            8.0,
+            -4.8,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "Via_L_2",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -8.5,
+        -2.1,
+        0.0,
+        -7.5,
+        -1.1,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -8.0,
+            -1.6,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 79,
+      "name": "Via_R_2",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        7.5,
+        -2.1,
+        0.0,
+        8.5,
+        -1.1,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            8.0,
+            -1.6,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 88,
+      "name": "Via_L_3",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -8.5,
+        1.1,
+        0.0,
+        -7.5,
+        2.1,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -8.0,
+            1.6,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 97,
+      "name": "Via_R_3",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        7.5,
+        1.1,
+        0.0,
+        8.5,
+        2.1,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            8.0,
+            1.6,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 106,
+      "name": "Via_L_4",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -8.5,
+        4.3,
+        0.0,
+        -7.5,
+        5.3,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -8.0,
+            4.8,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 115,
+      "name": "Via_R_4",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        7.5,
+        4.3,
+        0.0,
+        8.5,
+        5.3,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            8.0,
+            4.8,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 124,
+      "name": "Via_L_5",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -8.5,
+        7.5,
+        0.0,
+        -7.5,
+        8.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -8.0,
+            8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 133,
+      "name": "Via_R_5",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        7.5,
+        7.5,
+        0.0,
+        8.5,
+        8.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948966,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            8.0,
+            8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 142,
+      "name": "Via_T_1",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -5.3,
+        7.5,
+        0.0,
+        -4.3,
+        8.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -4.8,
+            8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 151,
+      "name": "Via_B_1",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -5.3,
+        -8.5,
+        0.0,
+        -4.3,
+        -7.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948966,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -4.8,
+            -8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 160,
+      "name": "Via_T_2",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -2.1,
+        7.5,
+        0.0,
+        -1.1,
+        8.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -1.6,
+            8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 169,
+      "name": "Via_B_2",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -2.1,
+        -8.5,
+        0.0,
+        -1.1,
+        -7.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            -1.6,
+            -8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 178,
+      "name": "Via_T_3",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        1.1,
+        7.5,
+        0.0,
+        2.1,
+        8.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            1.6,
+            8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 187,
+      "name": "Via_B_3",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        1.1,
+        -8.5,
+        0.0,
+        2.1,
+        -7.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            1.6,
+            -8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 196,
+      "name": "Via_T_4",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        4.3,
+        7.5,
+        0.0,
+        5.3,
+        8.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948963,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            4.8,
+            8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 205,
+      "name": "Via_B_4",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        4.3,
+        -8.5,
+        0.0,
+        5.3,
+        -7.5,
+        2.0
+      ],
+      "bounding_dimensions": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "volume": 1.5707963267948966,
+      "history_operations": "CreateCylinder",
+      "specific_attributes": {
+        "cylinder": {
+          "is_siw_via": true,
+          "center": [
+            4.8,
+            -8.0,
+            0.0
+          ],
+          "radius": 0.5,
+          "diameter": 1.0,
+          "height": 2.0,
+          "orientation_axis": "Z"
+        }
+      }
+    },
+    {
+      "id": 214,
+      "name": "Top_Metal",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -10.0,
+        -10.0,
+        2.0,
+        10.0,
+        10.0,
+        2.01
+      ],
+      "bounding_dimensions": [
+        20.0,
+        20.0,
+        0.009999999999999787
+      ],
+      "volume": 3.690831778332864,
+      "history_operations": "CreateBox",
+      "specific_attributes": {
+        "sheet": {
+          "vertex_count": 40,
+          "vertex_positions": [
+            [
+              -0.333333333333,
+              1.788411938095,
+              2.01
+            ],
+            [
+              -0.333333333333,
+              1.119870548128,
+              2.0
+            ],
+            [
+              0.333333333333,
+              1.788411938095,
+              2.01
+            ],
+            [
+              0.333333333333,
+              1.788411938095,
+              2.0
+            ],
+            [
+              0.333333333333,
+              1.119870548128,
+              2.01
+            ],
+            [
+              0.333333333333,
+              1.119870548128,
+              2.0
+            ],
+            [
+              -3.687817782917,
+              -1.133333333333,
+              2.01
+            ],
+            [
+              -3.687817782917,
+              -1.133333333333,
+              2.0
+            ],
+            [
+              3.687817782917,
+              -1.133333333333,
+              2.0
+            ],
+            [
+              3.687817782917,
+              -1.133333333333,
+              2.01
+            ],
+            [
+              -4.647580015449,
+              -1.8,
+              2.01
+            ],
+            [
+              -4.647580015449,
+              -1.8,
+              2.0
+            ],
+            [
+              4.647580015449,
+              -1.8,
+              2.0
+            ],
+            [
+              4.647580015449,
+              -1.8,
+              2.01
+            ],
+            [
+              -0.333333333333,
+              -2.333333333333,
+              2.01
+            ],
+            [
+              -0.333333333333,
+              -3.0,
+              2.0
+            ],
+            [
+              0.333333333333,
+              -2.333333333333,
+              2.01
+            ],
+            [
+              0.333333333333,
+              -2.333333333333,
+              2.0
+            ],
+            [
+              0.333333333333,
+              -3.0,
+              2.01
+            ],
+            [
+              0.333333333333,
+              -3.0,
+              2.0
+            ],
+            [
+              5.291502622129,
+              -2.333333333333,
+              2.0
+            ],
+            [
+              5.291502622129,
+              -2.333333333333,
+              2.01
+            ],
+            [
+              -5.291502622129,
+              -2.333333333333,
+              2.01
+            ],
+            [
+              -5.291502622129,
+              -2.333333333333,
+              2.0
+            ],
+            [
+              6.0,
+              -3.0,
+              2.0
+            ],
+            [
+              6.0,
+              -3.0,
+              2.01
+            ],
+            [
+              -6.0,
+              -3.0,
+              2.01
+            ],
+            [
+              -6.0,
+              -3.0,
+              2.0
+            ],
+            [
+              10.0,
+              -10.0,
+              2.0
+            ],
+            [
+              -10.0,
+              -10.0,
+              2.0
+            ],
+            [
+              -10.0,
+              10.0,
+              2.0
+            ],
+            [
+              10.0,
+              10.0,
+              2.0
+            ],
+            [
+              10.0,
+              -10.0,
+              2.01
+            ],
+            [
+              10.0,
+              10.0,
+              2.01
+            ],
+            [
+              -10.0,
+              10.0,
+              2.01
+            ],
+            [
+              -10.0,
+              -10.0,
+              2.01
+            ],
+            [
+              -0.333333333333,
+              -2.333333333333,
+              2.0
+            ],
+            [
+              -0.333333333333,
+              -3.0,
+              2.01
+            ],
+            [
+              -0.333333333333,
+              1.788411938095,
+              2.0
+            ],
+            [
+              -0.333333333333,
+              1.119870548128,
+              2.01
+            ]
+          ],
+          "face_normals": [
+            [
+              -0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            [
+              -0.0,
+              -1.0,
+              -0.0
+            ],
+            [
+              -1.0,
+              -0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              1.330968200961473e-13,
+              -1.0,
+              -0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              -0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              1.330968200961752e-13,
+              -1.0,
+              -0.0
+            ],
+            [
+              1.0,
+              -0.0,
+              6.659117701701831e-11
+            ],
+            [
+              -1.0,
+              -0.0,
+              6.659117701701831e-11
+            ],
+            [
+              -0.639469639269856,
+              0.7688163502762414,
+              0.0
+            ],
+            [
+              -0.5575889153118907,
+              0.8301172215544675,
+              2.197930004110036e-14
+            ],
+            [
+              0.639469639269856,
+              0.7688163502762414,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.5575889153118907,
+              0.8301172215544675,
+              2.197930004110036e-14
+            ],
+            [
+              8.947250171823977e-14,
+              -1.0,
+              -0.0
+            ],
+            [
+              1.0,
+              -0.0,
+              6.659117701701831e-11
+            ],
+            [
+              -1.0,
+              -0.0,
+              6.659117701701831e-11
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": 242,
+      "name": "Bottom_Metal",
+      "material": "copper",
+      "solve_inside": false,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -10.0,
+        -10.0,
+        -0.01,
+        10.0,
+        10.0,
+        0.0
+      ],
+      "bounding_dimensions": [
+        20.0,
+        20.0,
+        0.01
+      ],
+      "volume": 4.0,
+      "history_operations": "CreateBox",
+      "specific_attributes": {
+        "sheet": {
+          "vertex_count": 8,
+          "vertex_positions": [
+            [
+              10.0,
+              -10.0,
+              -0.01
+            ],
+            [
+              -10.0,
+              -10.0,
+              -0.01
+            ],
+            [
+              -10.0,
+              10.0,
+              -0.01
+            ],
+            [
+              10.0,
+              10.0,
+              -0.01
+            ],
+            [
+              10.0,
+              -10.0,
+              0.0
+            ],
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              -10.0,
+              10.0,
+              0.0
+            ],
+            [
+              -10.0,
+              -10.0,
+              0.0
+            ]
+          ],
+          "face_normals": [
+            [
+              0.0,
+              -0.0,
+              1.0
+            ],
+            [
+              -0.0,
+              -1.0,
+              -0.0
+            ],
+            [
+              -1.0,
+              -0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -1.0
+            ],
+            [
+              1.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": 699,
+      "name": "Air_Box",
+      "material": "air",
+      "solve_inside": true,
+      "is_solid": true,
+      "geometry_type": "Solid",
+      "bounding_box": [
+        -10.0,
+        -10.0,
+        -10.0,
+        10.0,
+        10.0,
+        12.0
+      ],
+      "bounding_dimensions": [
+        20.0,
+        20.0,
+        22.0
+      ],
+      "volume": 8799.999999999998,
+      "history_operations": "CreateBox",
+      "specific_attributes": {}
+    }
+  ],
+  "boundaries": [
+    {
+      "name": "PE1",
+      "type": "Perfect E",
+      "assigned_entities": [
+        "704"
+      ]
+    },
+    {
+      "name": "PE2",
+      "type": "Perfect E",
+      "assigned_entities": [
+        "702"
+      ]
+    },
+    {
+      "name": "PH1",
+      "type": "Perfect H",
+      "assigned_entities": [
+        "705"
+      ]
+    },
+    {
+      "name": "PH2",
+      "type": "Perfect H",
+      "assigned_entities": [
+        "703"
+      ]
+    }
+  ],
+  "excitations": [
+    {
+      "name": "1:1",
+      "type": "Lumped Port",
+      "assigned_entities": []
+    },
+    {
+      "name": "2:1",
+      "type": "Lumped Port",
+      "assigned_entities": []
+    }
+  ],
+  "boolean_etch_features": [
+    {
+      "object_name": "Top_Metal",
+      "material": "copper",
+      "history_operations": "CreateBox",
+      "detected_reason": "Matched keyword or boolean subtract in object/structure"
+    },
+    {
+      "object_name": "Bottom_Metal",
+      "material": "copper",
+      "history_operations": "CreateBox",
+      "detected_reason": "Matched keyword or boolean subtract in object/structure"
+    }
+  ]
+}

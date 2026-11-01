@@ -1,0 +1,64 @@
+================================================================================
+                  ANSYS HFSS PROJECT NON-DESTRUCTIVE AUDIT REPORT               
+================================================================================
+Project File:        C:\Users\sanja\Downloads\Antenna_Project\SIW_CSRR_TEM_Waveguide.aedt
+Active Design:       SIW_CSRR_Sensor
+Solution Type:       Modal
+Modeler Units:       mm
+Bounding Box (extents): [-10.0, -10.0, -10.0, 10.0, 10.0, 12.0]
+KiCad Python API:    pcbnew could not be imported (No module named 'pcbnew'). KiCad Python API is isolated to its standalone installation.
+--------------------------------------------------------------------------------
+
+1. GEOMETRY & OBJECT INVENTORY:
+   - Total Objects Analyzed:      24
+   - Identified SIW Via Cylinders:20
+   - Identified Sheets/Thin Plates:2
+   - Identified 3D Solid Bodies:   22
+
+   Detailed Objects Breakdown:
+     * [SOLID] FR4_epoxy      | Mat: fr4_epoxy  | SolveInside: True | BBox: [-10.0, -10.0, 0.0, 10.0, 10.0, 2.0]
+     * [VIA]   Via_L_0        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-8.0, -8.0, 0.0]
+     * [VIA]   Via_R_0        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [8.0, -8.0, 0.0]
+     * [VIA]   Via_L_1        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-8.0, -4.8, 0.0]
+     * [VIA]   Via_R_1        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [8.0, -4.8, 0.0]
+     * [VIA]   Via_L_2        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-8.0, -1.6, 0.0]
+     * [VIA]   Via_R_2        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [8.0, -1.6, 0.0]
+     * [VIA]   Via_L_3        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-8.0, 1.6, 0.0]
+     * [VIA]   Via_R_3        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [8.0, 1.6, 0.0]
+     * [VIA]   Via_L_4        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-8.0, 4.8, 0.0]
+     * [VIA]   Via_R_4        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [8.0, 4.8, 0.0]
+     * [VIA]   Via_L_5        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-8.0, 8.0, 0.0]
+     * [VIA]   Via_R_5        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [8.0, 8.0, 0.0]
+     * [VIA]   Via_T_1        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-4.8, 8.0, 0.0]
+     * [VIA]   Via_B_1        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-4.8, -8.0, 0.0]
+     * [VIA]   Via_T_2        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-1.6, 8.0, 0.0]
+     * [VIA]   Via_B_2        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [-1.6, -8.0, 0.0]
+     * [VIA]   Via_T_3        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [1.6, 8.0, 0.0]
+     * [VIA]   Via_B_3        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [1.6, -8.0, 0.0]
+     * [VIA]   Via_T_4        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [4.8, 8.0, 0.0]
+     * [VIA]   Via_B_4        | Mat: copper     | Axis: Z | Dia: 1.0000 mm | H: 2.0000 mm | Center: [4.8, -8.0, 0.0]
+     * [SHEET] Top_Metal      | Mat: copper     | Vertices: 40  | BBox: [-10.0, -10.0, 2.0, 10.0, 10.0, 2.01]
+     * [SHEET] Bottom_Metal   | Mat: copper     | Vertices: 8   | BBox: [-10.0, -10.0, -0.01, 10.0, 10.0, 0.0]
+     * [SOLID] Air_Box        | Mat: air        | SolveInside: True | BBox: [-10.0, -10.0, -10.0, 10.0, 10.0, 12.0]
+
+--------------------------------------------------------------------------------
+2. BOUNDARIES & PORT EXCITATIONS:
+   - Boundaries Count:  4
+     * PE1      | Type: Perfect E       | Assigned Entities: ['704']
+     * PE2      | Type: Perfect E       | Assigned Entities: ['702']
+     * PH1      | Type: Perfect H       | Assigned Entities: ['705']
+     * PH2      | Type: Perfect H       | Assigned Entities: ['703']
+
+   - Excitations (Ports) Count: 2
+     * 1:1      | Type: Lumped Port     | Assigned Entities: []
+     * 2:1      | Type: Lumped Port     | Assigned Entities: []
+
+--------------------------------------------------------------------------------
+3. BOOLEAN & ETCH / RESONATOR FEATURES:
+   - Detected Features/Cutouts Count: 2
+     * Object: Top_Metal (Material: copper) - Matched keyword or boolean subtract in object/structure
+     * Object: Bottom_Metal (Material: copper) - Matched keyword or boolean subtract in object/structure
+
+================================================================================
+AUDIT EXECUTION STATUS: COMPLETED SUCCESSFULLY WITHOUT MODIFICATION
+================================================================================
